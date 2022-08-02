@@ -1,0 +1,201 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(194, 55, 55);
+}
+.logo{
+    width: 120px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    padding: 20px 5px 10px 10px;
+}
+ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.last{
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+}
+.last:hover{
+    text-decoration: none;
+    background-color: rgb(108, 0, 0);
+    color: white;
+    transition: 1s;
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.654) , rgba(0, 0, 0, 0.727)) , url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;  
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    padding-top: 18%;
+}
+.buttons{
+    text-align: center;
+    padding-top: 30px;
+}
+.buttons a{
+    background-color: red;
+    padding: 12.5px 20px;
+    margin-right: 50px;
+    margin-left: 30px;
+    color: white;
+}
+.buttons a:hover{
+    background-color: brown;
+    color: white;
+    transition: 1s;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.images{
+    background-color: black;
+}
+.images img{
+    width: 25%;
+    opacity: .5;
+}
+.images img:hover{
+    opacity: 1;
+    transform: scale(.98);
+    transition: 1s;
+}
+.country img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.country h5{
+    text-align: center;
+}
+.country p{
+    text-align: center;
+    text-transform: uppercase;
+}
+#imgy{   
+    width: 200px;
+    border-radius: 50%;
+}
+#myp{
+    color: white;
+    margin-top: 60px;
+}
+#s{
+    color: white;
+}
+#s a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#s a:hover{
+    text-decoration: underline;
+}
+h6{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+footer{
+    padding: 4%;
+    background-color: #333;
+    min-height: 20vh;
+}
+#order{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.708) , rgba(0, 0, 0, 0.78)) ,  url(../images/h.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+input{
+    width: 80%;
+    padding: 1%;
+    margin-top: 10px;
+}
+form{
+    padding-top: 70px;
+}
+select{
+    width: 80%;
+    padding: 1%;
+    margin-top: 10px;
+}
+button{
+    width: 80%;
+    margin-top: 10px;
+}
+#slide1{ padding: 100px 0 0 200px; background-image: linear-gradient(rgba(0, 0, 0, 0.72) , rgba(0, 0, 0, 0.901)) , url(../images/sec.jpg); background-position: center; background-size: cover; min-height: 90vh;}
+#slide2{ padding: 100px 0 0 200px; background-image: linear-gradient(rgba(0, 0, 0, 0.72) , rgba(0, 0, 0, 0.901)) , url(../images/first.jpg); background-position: center; background-size: cover; min-height: 90vh;}
+#slide3{ padding: 100px 0 0 200px; background-image: linear-gradient(rgba(0, 0, 0, 0.72) , rgba(0, 0, 0, 0.901)) , url(../images/third.jpg); background-position: center; background-size: cover; min-height: 90vh;}
+@media screen and (max-width:650px) {
+    ul{
+        display: none;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    form{
+        padding-top: 0;
+    }
+    .hero h1{
+        padding-top: 60%;
+    }
+    .buttons{
+        display: flex;
+    }
+    .buttons a{
+        width: 50%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h2{
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    .images img{
+        width: 50%;
+    }
+    #order{
+        min-height: 60vh;
+    }
+    select{
+        padding: 10px;
+    }
+    input{
+        margin-top: 15px;
+        padding: 10px;
+    }
+    #slide1{
+        text-align: center;
+        padding: 25% ;
+    }
+    #slide2{
+        text-align: center;
+        padding: 25% ;
+    }
+    #slide3{
+        text-align: center;
+        padding: 25% ;
+    }
+}
